@@ -13,4 +13,4 @@ jobs:
           docker build . -t kryptikker/hello-docker-hub:latest
       - name: publish
         run: |
-          docker push kryptikker/hello-docker-hub@latest
+          docker push kryptikker/hello-docker-hub:latest
